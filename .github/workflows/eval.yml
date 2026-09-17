@@ -1,0 +1,65 @@
+# .github/workflows/eval.yml
+#
+# ELI5: This file teaches GitHub itself to run this project's exam
+# automatically, every time code is pushed or a pull request is opened —
+# no human has to remember to run it by hand. If the retrieval quality
+# ever regresses below the threshold (someone accidentally breaks the
+# chunking logic, say), this turns the GitHub PR red with a clear failure
+# BEFORE the broken code can be merged, instead of finding out only after
+# it's already in production. This exact pattern — automated evaluation
+# as a merge gate — is genuinely how serious AI teams guard against
+# silent quality regressions in RAG and other AI systems.
+
+name: RAG Retrieval Evaluation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # also allows triggering it manually from the GitHub Actions tab
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: CHECKOUT CODE — copies this repository's files onto the
+      # temporary virtual machine GitHub spins up to run this job. Without
+      # this, the runner has no files to test at all.
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Step 2: RUN EVALUATION — runs the exact same script you run
+      # locally. The corpus and questions are already committed to the
+      # repo (they're small, deterministic text/JSON files), so no extra
+      # download or setup is needed here.
+      - name: Run evaluation
+        run: python3 run_eval.py --threshold 0.75
+
+      # Step 3 + 4 (CHECK ACCURACY, CHECK THRESHOLD) happen INSIDE
+      # run_eval.py itself: it prints the full results table (visible in
+      # this step's logs) and exits with a non-zero status code if the
+      # best method's hit rate falls below --threshold. GitHub Actions
+      # automatically fails this whole job the moment any step exits
+      # non-zero — that's the entire mechanism the "gate" relies on,
+      # nothing more exotic than a program's own exit code.
+
+      # Optional but genuinely useful: upload the detailed JSON report as
+      # a downloadable build artifact, so you can inspect exact per-
+      # question results for this specific run without re-running it
+      # locally.
+      - name: Upload evaluation report
+        if: always()  # upload even if the evaluation step above failed, so you can debug WHY
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: data/eval/results/

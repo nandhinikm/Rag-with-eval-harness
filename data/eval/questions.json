@@ -1,0 +1,975 @@
+[
+  {
+    "id": "rover-x1-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara Rover X1?",
+    "expected_answer": "42 km",
+    "answer_keywords": [
+      "42",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-rover-x1.md"
+  },
+  {
+    "id": "rover-x1-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara Rover X1?",
+    "expected_answer": "$24,500",
+    "answer_keywords": [
+      "24500",
+      "price"
+    ],
+    "source_doc": "product-rover-x1.md"
+  },
+  {
+    "id": "rover-x1-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara Rover X1?",
+    "expected_answer": "2 years",
+    "answer_keywords": [
+      "2",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-rover-x1.md"
+  },
+  {
+    "id": "rover-x2-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara Rover X2?",
+    "expected_answer": "68 km",
+    "answer_keywords": [
+      "68",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-rover-x2.md"
+  },
+  {
+    "id": "rover-x2-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara Rover X2?",
+    "expected_answer": "$31,900",
+    "answer_keywords": [
+      "31900",
+      "price"
+    ],
+    "source_doc": "product-rover-x2.md"
+  },
+  {
+    "id": "rover-x2-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara Rover X2?",
+    "expected_answer": "3 years",
+    "answer_keywords": [
+      "3",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-rover-x2.md"
+  },
+  {
+    "id": "falcon-3-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara Drone Falcon-3?",
+    "expected_answer": "15 km",
+    "answer_keywords": [
+      "15",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-falcon-3.md"
+  },
+  {
+    "id": "falcon-3-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara Drone Falcon-3?",
+    "expected_answer": "$3,800",
+    "answer_keywords": [
+      "3800",
+      "price"
+    ],
+    "source_doc": "product-falcon-3.md"
+  },
+  {
+    "id": "falcon-3-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara Drone Falcon-3?",
+    "expected_answer": "1 years",
+    "answer_keywords": [
+      "1",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-falcon-3.md"
+  },
+  {
+    "id": "falcon-5-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara Drone Falcon-5?",
+    "expected_answer": "27 km",
+    "answer_keywords": [
+      "27",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-falcon-5.md"
+  },
+  {
+    "id": "falcon-5-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara Drone Falcon-5?",
+    "expected_answer": "$6,200",
+    "answer_keywords": [
+      "6200",
+      "price"
+    ],
+    "source_doc": "product-falcon-5.md"
+  },
+  {
+    "id": "falcon-5-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara Drone Falcon-5?",
+    "expected_answer": "2 years",
+    "answer_keywords": [
+      "2",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-falcon-5.md"
+  },
+  {
+    "id": "sensorpod-lx-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara SensorPod LX?",
+    "expected_answer": "0 km",
+    "answer_keywords": [
+      "0",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-sensorpod-lx.md"
+  },
+  {
+    "id": "sensorpod-lx-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara SensorPod LX?",
+    "expected_answer": "$1,450",
+    "answer_keywords": [
+      "1450",
+      "price"
+    ],
+    "source_doc": "product-sensorpod-lx.md"
+  },
+  {
+    "id": "sensorpod-lx-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara SensorPod LX?",
+    "expected_answer": "1 years",
+    "answer_keywords": [
+      "1",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-sensorpod-lx.md"
+  },
+  {
+    "id": "sensorpod-lx-pro-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara SensorPod LX-Pro?",
+    "expected_answer": "0 km",
+    "answer_keywords": [
+      "0",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-sensorpod-lx-pro.md"
+  },
+  {
+    "id": "sensorpod-lx-pro-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara SensorPod LX-Pro?",
+    "expected_answer": "$2,300",
+    "answer_keywords": [
+      "2300",
+      "price"
+    ],
+    "source_doc": "product-sensorpod-lx-pro.md"
+  },
+  {
+    "id": "sensorpod-lx-pro-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara SensorPod LX-Pro?",
+    "expected_answer": "2 years",
+    "answer_keywords": [
+      "2",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-sensorpod-lx-pro.md"
+  },
+  {
+    "id": "hauler-h1-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara Cargo Hauler H1?",
+    "expected_answer": "85 km",
+    "answer_keywords": [
+      "85",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-hauler-h1.md"
+  },
+  {
+    "id": "hauler-h1-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara Cargo Hauler H1?",
+    "expected_answer": "$58,000",
+    "answer_keywords": [
+      "58000",
+      "price"
+    ],
+    "source_doc": "product-hauler-h1.md"
+  },
+  {
+    "id": "hauler-h1-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara Cargo Hauler H1?",
+    "expected_answer": "3 years",
+    "answer_keywords": [
+      "3",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-hauler-h1.md"
+  },
+  {
+    "id": "hauler-h2-range",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the operating range of the Solara Cargo Hauler H2?",
+    "expected_answer": "120 km",
+    "answer_keywords": [
+      "120",
+      "km",
+      "range"
+    ],
+    "source_doc": "product-hauler-h2.md"
+  },
+  {
+    "id": "hauler-h2-price",
+    "category": "product",
+    "difficulty": "exact",
+    "question": "What is the list price of the Solara Cargo Hauler H2?",
+    "expected_answer": "$79,500",
+    "answer_keywords": [
+      "79500",
+      "price"
+    ],
+    "source_doc": "product-hauler-h2.md"
+  },
+  {
+    "id": "hauler-h2-warranty",
+    "category": "product",
+    "difficulty": "paraphrase",
+    "question": "How many years is the manufacturer warranty for the Solara Cargo Hauler H2?",
+    "expected_answer": "3 years",
+    "answer_keywords": [
+      "3",
+      "year",
+      "warranty"
+    ],
+    "source_doc": "product-hauler-h2.md"
+  },
+  {
+    "id": "vacation-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How many days of paid annual leave do full-time employees get?",
+    "expected_answer": "22 days",
+    "answer_keywords": [
+      "22",
+      "days",
+      "annual leave"
+    ],
+    "source_doc": "policy-vacation-policy.md"
+  },
+  {
+    "id": "remote-work-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How many days per week can employees work remotely?",
+    "expected_answer": "3 days",
+    "answer_keywords": [
+      "3",
+      "days",
+      "remote"
+    ],
+    "source_doc": "policy-remote-work-policy.md"
+  },
+  {
+    "id": "parental-leave-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How many weeks of fully paid parental leave do primary caregivers receive?",
+    "expected_answer": "16 weeks",
+    "answer_keywords": [
+      "16",
+      "weeks",
+      "parental"
+    ],
+    "source_doc": "policy-parental-leave-policy.md"
+  },
+  {
+    "id": "probation-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How long is the probation period for new hires?",
+    "expected_answer": "90 days",
+    "answer_keywords": [
+      "90",
+      "days",
+      "probation"
+    ],
+    "source_doc": "policy-probation-policy.md"
+  },
+  {
+    "id": "expense-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "What is the daily meal expense limit for business travel?",
+    "expected_answer": "$75 per day",
+    "answer_keywords": [
+      "75",
+      "meal",
+      "day"
+    ],
+    "source_doc": "policy-expense-policy.md"
+  },
+  {
+    "id": "equipment-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "What is the annual home office equipment allowance?",
+    "expected_answer": "$1,200",
+    "answer_keywords": [
+      "1,200",
+      "equipment",
+      "allowance"
+    ],
+    "source_doc": "policy-equipment-policy.md"
+  },
+  {
+    "id": "sick-leave-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How many paid sick days do employees accrue per year?",
+    "expected_answer": "10 days",
+    "answer_keywords": [
+      "10",
+      "sick",
+      "days"
+    ],
+    "source_doc": "policy-sick-leave-policy.md"
+  },
+  {
+    "id": "notice-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How much notice must employees give before resigning?",
+    "expected_answer": "4 weeks",
+    "answer_keywords": [
+      "4",
+      "weeks",
+      "notice"
+    ],
+    "source_doc": "policy-notice-policy.md"
+  },
+  {
+    "id": "overtime-policy",
+    "category": "policy",
+    "difficulty": "paraphrase",
+    "question": "What rate is overtime paid at, relative to standard hourly pay?",
+    "expected_answer": "1.5 times",
+    "answer_keywords": [
+      "1.5",
+      "overtime",
+      "rate"
+    ],
+    "source_doc": "policy-overtime-policy.md"
+  },
+  {
+    "id": "referral-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How much is the employee referral bonus?",
+    "expected_answer": "$2,000",
+    "answer_keywords": [
+      "2,000",
+      "referral",
+      "bonus"
+    ],
+    "source_doc": "policy-referral-policy.md"
+  },
+  {
+    "id": "training-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "What is the annual professional development budget per employee?",
+    "expected_answer": "$1,500",
+    "answer_keywords": [
+      "1,500",
+      "development",
+      "budget"
+    ],
+    "source_doc": "policy-training-policy.md"
+  },
+  {
+    "id": "conduct-policy",
+    "category": "policy",
+    "difficulty": "paraphrase",
+    "question": "Within how many business days must a conflict of interest be disclosed?",
+    "expected_answer": "5 business days",
+    "answer_keywords": [
+      "5",
+      "business days",
+      "conflict"
+    ],
+    "source_doc": "policy-conduct-policy.md"
+  },
+  {
+    "id": "data-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How long are customer support records retained before deletion?",
+    "expected_answer": "3 years",
+    "answer_keywords": [
+      "3",
+      "years",
+      "retained"
+    ],
+    "source_doc": "policy-data-policy.md"
+  },
+  {
+    "id": "security-policy",
+    "category": "policy",
+    "difficulty": "exact",
+    "question": "How often must employee passwords be changed?",
+    "expected_answer": "every 180 days",
+    "answer_keywords": [
+      "180",
+      "days",
+      "password"
+    ],
+    "source_doc": "policy-security-policy.md"
+  },
+  {
+    "id": "wfh-equipment-policy",
+    "category": "policy",
+    "difficulty": "paraphrase",
+    "question": "Within how many days of starting must a new employee complete the home office safety checklist?",
+    "expected_answer": "30 days",
+    "answer_keywords": [
+      "30",
+      "days",
+      "safety checklist"
+    ],
+    "source_doc": "policy-wfh-equipment-policy.md"
+  },
+  {
+    "id": "code-review-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "How many reviewer approvals does a pull request need before merging?",
+    "expected_answer": "2 reviewers",
+    "answer_keywords": [
+      "2",
+      "reviewers",
+      "approval"
+    ],
+    "source_doc": "procedure-code-review-proc.md"
+  },
+  {
+    "id": "test-coverage-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "What is the minimum required test coverage for new backend code?",
+    "expected_answer": "85%",
+    "answer_keywords": [
+      "85",
+      "coverage",
+      "test"
+    ],
+    "source_doc": "procedure-test-coverage-proc.md"
+  },
+  {
+    "id": "incident-response-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "Within how many minutes must a critical incident receive an initial response?",
+    "expected_answer": "15 minutes",
+    "answer_keywords": [
+      "15",
+      "minutes",
+      "incident"
+    ],
+    "source_doc": "procedure-incident-response-proc.md"
+  },
+  {
+    "id": "deployment-proc",
+    "category": "procedure",
+    "difficulty": "paraphrase",
+    "question": "What hours are production deployments permitted?",
+    "expected_answer": "9am to 4pm on weekdays",
+    "answer_keywords": [
+      "9am",
+      "4pm",
+      "weekdays"
+    ],
+    "source_doc": "procedure-deployment-proc.md"
+  },
+  {
+    "id": "firmware-update-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "What percentage of the fleet receives new firmware in the initial rollout stage?",
+    "expected_answer": "5%",
+    "answer_keywords": [
+      "5%",
+      "fleet",
+      "firmware"
+    ],
+    "source_doc": "procedure-firmware-update-proc.md"
+  },
+  {
+    "id": "battery-safety-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "What temperature is used for the battery pack thermal stress test?",
+    "expected_answer": "60 degrees Celsius",
+    "answer_keywords": [
+      "60",
+      "degrees",
+      "thermal"
+    ],
+    "source_doc": "procedure-battery-safety-proc.md"
+  },
+  {
+    "id": "sensor-calibration-proc",
+    "category": "procedure",
+    "difficulty": "paraphrase",
+    "question": "How often must LIDAR sensors be recalibrated, in terms of operating hours?",
+    "expected_answer": "every 500 operating hours",
+    "answer_keywords": [
+      "500",
+      "hours",
+      "lidar",
+      "recalibrat"
+    ],
+    "source_doc": "procedure-sensor-calibration-proc.md"
+  },
+  {
+    "id": "data-pipeline-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "How often is raw telemetry data uploaded to central storage?",
+    "expected_answer": "every 4 hours",
+    "answer_keywords": [
+      "4",
+      "hours",
+      "telemetry"
+    ],
+    "source_doc": "procedure-data-pipeline-proc.md"
+  },
+  {
+    "id": "bug-triage-proc",
+    "category": "procedure",
+    "difficulty": "paraphrase",
+    "question": "Within how many hours must a severity-1 bug be triaged?",
+    "expected_answer": "2 hours",
+    "answer_keywords": [
+      "2",
+      "hours",
+      "severity-1",
+      "triag"
+    ],
+    "source_doc": "procedure-bug-triage-proc.md"
+  },
+  {
+    "id": "release-cadence-proc",
+    "category": "procedure",
+    "difficulty": "exact",
+    "question": "What is the release cadence for the core navigation software?",
+    "expected_answer": "2 weeks",
+    "answer_keywords": [
+      "2",
+      "week",
+      "release",
+      "cadence"
+    ],
+    "source_doc": "procedure-release-cadence-proc.md"
+  },
+  {
+    "id": "decision-q3-roadmap",
+    "category": "decision",
+    "difficulty": "paraphrase",
+    "question": "What did the team decide to prioritize for Q3, the Rover X2 firmware upgrade or the SensorPod integration?",
+    "expected_answer": "Rover X2 firmware upgrade",
+    "answer_keywords": [
+      "Rover X2",
+      "firmware",
+      "prioritize"
+    ],
+    "source_doc": "decision-decision-q3-roadmap.md"
+  },
+  {
+    "id": "decision-vendor-switch",
+    "category": "decision",
+    "difficulty": "exact",
+    "question": "Which new supplier was approved for LIDAR sensors?",
+    "expected_answer": "ClearSight Optics",
+    "answer_keywords": [
+      "ClearSight",
+      "Optics",
+      "LIDAR",
+      "supplier"
+    ],
+    "source_doc": "decision-decision-vendor-switch.md"
+  },
+  {
+    "id": "decision-office-move",
+    "category": "decision",
+    "difficulty": "exact",
+    "question": "When will the Austin engineering office relocate?",
+    "expected_answer": "March 2027",
+    "answer_keywords": [
+      "March",
+      "2027",
+      "Austin",
+      "relocate"
+    ],
+    "source_doc": "decision-decision-office-move.md"
+  },
+  {
+    "id": "decision-pricing-change",
+    "category": "decision",
+    "difficulty": "exact",
+    "question": "What price increase was approved for the Cargo Hauler line?",
+    "expected_answer": "6%",
+    "answer_keywords": [
+      "6%",
+      "price increase",
+      "Cargo Hauler"
+    ],
+    "source_doc": "decision-decision-pricing-change.md"
+  },
+  {
+    "id": "decision-hiring-freeze",
+    "category": "decision",
+    "difficulty": "paraphrase",
+    "question": "Which department was excluded from the hiring freeze?",
+    "expected_answer": "engineering",
+    "answer_keywords": [
+      "engineering",
+      "hiring freeze",
+      "exclud"
+    ],
+    "source_doc": "decision-decision-hiring-freeze.md"
+  },
+  {
+    "id": "decision-safety-recall",
+    "category": "decision",
+    "difficulty": "paraphrase",
+    "question": "Which product had a voluntary recall due to a battery connector defect?",
+    "expected_answer": "Falcon-3",
+    "answer_keywords": [
+      "Falcon-3",
+      "recall",
+      "battery connector"
+    ],
+    "source_doc": "decision-decision-safety-recall.md"
+  },
+  {
+    "id": "decision-partnership",
+    "category": "decision",
+    "difficulty": "exact",
+    "question": "How many distribution centers will pilot the Cargo Hauler H2 under the Meridian Logistics partnership?",
+    "expected_answer": "3",
+    "answer_keywords": [
+      "3",
+      "distribution centers",
+      "Meridian"
+    ],
+    "source_doc": "decision-decision-partnership.md"
+  },
+  {
+    "id": "decision-open-source",
+    "category": "decision",
+    "difficulty": "exact",
+    "question": "Under what license will the SensorPod calibration toolkit be open-sourced?",
+    "expected_answer": "MIT license",
+    "answer_keywords": [
+      "MIT",
+      "license",
+      "open-source"
+    ],
+    "source_doc": "decision-decision-open-source.md"
+  },
+  {
+    "id": "glossary-telemetry",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What does the term 'telemetry' mean at Solara Robotics?",
+    "expected_answer": "automated collection and transmission of sensor and performance data",
+    "answer_keywords": [
+      "automated",
+      "collection",
+      "transmission",
+      "sensor",
+      "data"
+    ],
+    "source_doc": "glossary-glossary-telemetry.md"
+  },
+  {
+    "id": "glossary-fleet",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "How is the term 'fleet' defined internally?",
+    "expected_answer": "the complete set of deployed units of a single product model",
+    "answer_keywords": [
+      "deployed",
+      "units",
+      "product model"
+    ],
+    "source_doc": "glossary-glossary-fleet.md"
+  },
+  {
+    "id": "glossary-payload",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What does 'payload' mean for a Solara unit?",
+    "expected_answer": "the maximum additional weight a unit can carry beyond its own base weight",
+    "answer_keywords": [
+      "maximum",
+      "additional weight",
+      "carry"
+    ],
+    "source_doc": "glossary-glossary-payload.md"
+  },
+  {
+    "id": "glossary-uptime",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "How is 'uptime' defined for Solara units?",
+    "expected_answer": "the percentage of scheduled operating hours a unit is fully functional",
+    "answer_keywords": [
+      "percentage",
+      "operating hours",
+      "functional"
+    ],
+    "source_doc": "glossary-glossary-uptime.md"
+  },
+  {
+    "id": "glossary-geofence",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What is a 'geofence' in the context of Solara's autonomous units?",
+    "expected_answer": "a virtual perimeter defined by GPS coordinates restricting where a unit can operate",
+    "answer_keywords": [
+      "virtual perimeter",
+      "GPS",
+      "restrict"
+    ],
+    "source_doc": "glossary-glossary-geofence.md"
+  },
+  {
+    "id": "glossary-failsafe",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What happens when a Solara unit enters 'failsafe mode'?",
+    "expected_answer": "it stops and awaits manual override",
+    "answer_keywords": [
+      "stop",
+      "manual override",
+      "connectivity"
+    ],
+    "source_doc": "glossary-glossary-failsafe.md"
+  },
+  {
+    "id": "glossary-otau",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What does 'OTA update' stand for and mean?",
+    "expected_answer": "over-the-air update, delivered wirelessly without physical access",
+    "answer_keywords": [
+      "over-the-air",
+      "wirelessly",
+      "firmware"
+    ],
+    "source_doc": "glossary-glossary-otau.md"
+  },
+  {
+    "id": "glossary-mtbf",
+    "category": "glossary",
+    "difficulty": "exact",
+    "question": "What does MTBF measure?",
+    "expected_answer": "the average operating time between hardware failures",
+    "answer_keywords": [
+      "average",
+      "time",
+      "failures"
+    ],
+    "source_doc": "glossary-glossary-mtbf.md"
+  },
+  {
+    "id": "glossary-payload-bay",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What is the 'payload bay' on a Cargo Hauler unit?",
+    "expected_answer": "the compartment that holds cargo during transport",
+    "answer_keywords": [
+      "compartment",
+      "cargo",
+      "transport"
+    ],
+    "source_doc": "glossary-glossary-payload-bay.md"
+  },
+  {
+    "id": "glossary-degraded-mode",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "When does a unit enter 'degraded mode'?",
+    "expected_answer": "when one or more non-critical sensors fail",
+    "answer_keywords": [
+      "non-critical",
+      "sensors",
+      "fail"
+    ],
+    "source_doc": "glossary-glossary-degraded-mode.md"
+  },
+  {
+    "id": "glossary-hot-swap",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What does 'hot-swap' mean for Solara hardware?",
+    "expected_answer": "replacing a component while the unit remains powered on",
+    "answer_keywords": [
+      "replacing",
+      "powered on",
+      "battery"
+    ],
+    "source_doc": "glossary-glossary-hot-swap.md"
+  },
+  {
+    "id": "glossary-edge-compute",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What is 'edge compute' at Solara Robotics?",
+    "expected_answer": "processing sensor data directly on the unit instead of the cloud",
+    "answer_keywords": [
+      "processing",
+      "on the unit",
+      "cloud"
+    ],
+    "source_doc": "glossary-glossary-edge-compute.md"
+  },
+  {
+    "id": "glossary-tele-op",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What is 'tele-operation'?",
+    "expected_answer": "direct remote control of a unit by a human operator",
+    "answer_keywords": [
+      "remote control",
+      "human operator"
+    ],
+    "source_doc": "glossary-glossary-tele-op.md"
+  },
+  {
+    "id": "glossary-mission-profile",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What is a 'mission profile'?",
+    "expected_answer": "a pre-configured set of tasks and waypoints assigned before deployment",
+    "answer_keywords": [
+      "pre-configured",
+      "tasks",
+      "waypoints"
+    ],
+    "source_doc": "glossary-glossary-mission-profile.md"
+  },
+  {
+    "id": "glossary-battery-cycle",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What counts as one 'battery cycle'?",
+    "expected_answer": "one full discharge and recharge of the battery pack",
+    "answer_keywords": [
+      "discharge",
+      "recharge",
+      "battery"
+    ],
+    "source_doc": "glossary-glossary-battery-cycle.md"
+  },
+  {
+    "id": "glossary-swarm-mode",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What does 'swarm mode' enable?",
+    "expected_answer": "multiple units coordinating tasks and sharing sensor data in real time",
+    "answer_keywords": [
+      "multiple units",
+      "coordinate",
+      "sensor data"
+    ],
+    "source_doc": "glossary-glossary-swarm-mode.md"
+  },
+  {
+    "id": "glossary-calibration-drift",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What causes 'calibration drift'?",
+    "expected_answer": "wear, temperature changes, or vibration over time",
+    "answer_keywords": [
+      "wear",
+      "temperature",
+      "vibration"
+    ],
+    "source_doc": "glossary-glossary-calibration-drift.md"
+  },
+  {
+    "id": "glossary-checkpoint-sync",
+    "category": "glossary",
+    "difficulty": "paraphrase",
+    "question": "What is 'checkpoint sync' used for?",
+    "expected_answer": "saving navigation state so a unit can resume safely after a restart",
+    "answer_keywords": [
+      "saving",
+      "navigation state",
+      "restart"
+    ],
+    "source_doc": "glossary-glossary-checkpoint-sync.md"
+  }
+]

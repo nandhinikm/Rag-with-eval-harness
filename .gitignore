@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+ci_venv/
+
+# evaluation run history — the harness regenerates these; keep the
+# folder tracked but not every timestamped run
+data/eval/results/*.json
+
+# OS/editor noise
+.DS_Store
+.vscode/
